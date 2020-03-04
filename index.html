@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+   <title>maliteng pizzarina</title>
+   <link rel="stylesheet" href="./css/bootstrap.css">
+   <link rel="stylesheet" href="./css/styles.css">
+   <script src="./js/jquery.js"></script>
+   <script src="./js/scripts.js"></script>
+</head>
+
+<body class="container">
+   <div class="overlay">
+       <div class="clap">
+           <nav class="greatnav">
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+
+               </ul>
+           </nav>
+           <div class="logo">
+               <img src="./images/pizza.jpg" alt="logo" width="150" height="120" id="logo1">
+
+               <h1>Maliteng Pizzarina</h1>
+               <p id="p1">We fulfill your choice</p>
+           </div>
+       </div>
+
+       <div class="menu">
+           <h2>Menu</h2>
+
+           <p>What we offer is very special and I know you will like it, below are some of our special pizzas and their prices </p>
+
+
+           <div class="row pass">
+               <div class="col-md-4">
+                   <img src="./images/large.jpg" alt="" width="250" height="250" id="pizza1">
+                   <p id="par1">Large size pizza with bacon toppings</p>
+               </div>
+
+               <div class="col-md-4">
+                   <img src="./images/medium.jpeg" width="250" height="250" id="pizza2">
+                   <p id="par2">Large pizza with tomato toppings spiced with black-berrys</p>
+               </div>
+
+               <div class="col-md-4">
+                   <img src="./images/toppings.sausage.jpeg" alt="" width="250" height="250" id="pizza3">
+                   <p id="par3">Large pizza with sausage toppings with extra cheese</p>
+               </div>
+
+           </div>
+           <div class="row fail">
+               <div class="col-md-4">
+                   <img src="./images/toppings.cheese.jpeg" alt="" width="250" height="250" id="pizza4">
+                   <p id="par4"> cheese with tomato toppings large pizza</p>
+               </div>
+
+               <div class="col-md-4">
+                   <img src="./images/toppings.pepporoni.web" alt="" width="250" height="250" id="pizza5">
+                   <p id="par5">Large pizza with pepporoni toppings</p>
+               </div>
+
+               <div class="col-md-4">
+                   <img src="./images/topppings.green.jpeg" alt="" width="250" height="250" id="pizza6">
+                   <p id="par6">Large pizza with tomato toppings</p>
+               </div>
+
+           </div>
+
+           <div class="order">
+               <h2>Make Your Order Now</h2>
+
+               <form action="https://github.us4.list-manage.com/subscribe/post?u=613ccfb15ec2c2a0339c0dfc1&amp;id=aba50f1cb8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                   <div class="row" id="charge" >
+                       <div class="col-md-4">
+                           <label for="">Pizza Size</label>
+                           <br>
+                           <select name="" id="pizza">
+
+                       <option value="Size">select pizza </option>
+                       <option value="Small">small Ksh.200</option>
+                       <option value="Medium">medium Ksh. 400</option>
+                       <option value="Large">large Ksh. 700</option>
+
+                   </select>
+                       </div>
+                       <br><br>
+
+                       <div class="col-md-4">
+                           <label for="">Toppings</label>
+                           <br>
+                           <select name="" id="topveg">
+
+                           <option value="" id="topveg">vegetable</option>
+                           <option value="Mushrooms">Mushrooms ksh. 200</option>
+                           <option value="Onions">Onions ksh. 200</option>
+                           <option value="Capsicum">Capsicum ksh.200</option>
+
+                       </select>
+
+                           <select name="" id="topnoveg">
+
+                           <option value="" id="topnoveg">non vegetable </option>
+                           <option value="Chicken">Chicken ksh. 150</option>
+                           <option value="Sausage">Sausage ksh. 150</option>
+                           <option value="Bacon">Bacon ksh. 150</option>
+                       </select>
+                       </div>
+
+                       <div class="col-md-4">
+
+                           <label for="">Crust</label>
+                           <br>
+
+                           <select name="Crust" id="crust">
+
+                           <option value="Crust">crust</option>
+                           <option value="Crispy">Crispy ksh. 50</option>
+                           <option value="Stuffed">Stuffed ksh. 50</option>
+                           <option value="Gluten-free">Gluten free ksh. 50</option>
+
+                       </select>
+                       </div>
+                   </div>
+                   <br><br>
+
+                   <input type="submit" class="btn  btn-rounded waves-effect btn-lg" value="Order!!" id="order">
+              
+
+
+           </div>
+       </div>
+       <div class="over">
+           <h3>Receipt</h3>
+           <p id="size">Pizza size:</p>
+           <p id="vgs">Veges:</p>
+           <p id="nvgs">Non-veges:</p>
+           <p id="cr">Crust:</p>
+           <p id="text">Total charges:</p>
+       </div>
+       <br><br>
+
+       <div class="order2">
+           <input type="submit" class="btn  btn-rounded waves-effect btn-lg" value="Delivery?" id="deliver">
+       </div>
+    </form>
+       <footer>
+           <p>For order, call +254 748627405</p>
+           <p>Email: malitimark55@gmail.com</p>
+       </footer>
+
+   </div>
+   </div>
+</body>
+
+</html>
